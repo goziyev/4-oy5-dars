@@ -157,12 +157,27 @@
 
 // G'aroyib yig'indi
 
-let a = +prompt("A Sonni kiriting");
-let b = +prompt("B Sonni kiriting");
-let total = 0;
-for (var i = a; i <= b; i++) {
-  if (i % 3 == 0 && i % 7 != 0) {
-    total += i;
-  }
-}
-console.log(total);
+// let a = +prompt("Marhamat 1-sonni kiriting");
+// let b = +prompt("Marhamat 2-sonni kiriting");
+// let total = 0;
+// for (var i = a; i <= b; i++) {
+//   if (i % 3 == 0 && i % 7 != 0) {
+//     total += i;
+//   }
+// }
+// console.log(total);
+
+
+// Ko'pburchak yig'indisi
+// let a = +prompt("Sonni kiriting");
+// let res = (a - 2) * 180;
+// console.log(res);
+
+// Ali va Vali
+// let a = +prompt("Ali ni yoshini kiriting: ");
+// let b = +prompt("Vali ni yoshini kiriting: ");
+// let c = Math.ceil( a / b) * b + b;
+// let d = c / b
+// console.log(`alining yoshi ${c} and Valining yoshi ${d} `);
+
+
